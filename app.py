@@ -182,12 +182,12 @@ with tab_blue:
                     st.markdown("---")
                     st.subheader("Generated Incident Report Preview:")
 
-                    #                     Use st.code() for better, cleaner formatting
+                    
                     st.code(report_data, language="text")
 
                     st.download_button(
                        label="Download Incident Report (FINAL_REPORT.md)",
-                       data=report_data, # Use the CLEANED data for the download
+                       data=report_data,
                        file_name="incident_report.md"
                     )
 
