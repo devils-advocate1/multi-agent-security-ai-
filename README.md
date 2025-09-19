@@ -1,9 +1,9 @@
 # 🤖 AURA: Autonomous Unified Reconnaissance & Analysis Agent Suite
-   Submission for the HackOmatic 2025: Agentic AI Hackathon
+Submission for the HackOmatic 2025: Agentic AI Hackathon
 
-    AURA is a multi-agent system designed to autonomously perform both offensive and defensive cybersecurity operations, demonstrating the true power of Agentic AI.
+AURA is a multi-agent system designed to autonomously perform both offensive and defensive cybersecurity operations, demonstrating the true power of Agentic AI.
 
-##🎯 The Mission: Automating the Analyst
+**🎯 The Mission: Automating the Analyst**
 In the world of cybersecurity, time is the most critical asset. Analysts, whether on the offensive Red Team or the defensive Blue Team, are swamped with manual, repetitive tasks.
 
 🔴 Red Teamers spend hours on initial reconnaissance, manually finding subdomains, checking IP reputations, and running port scans before an engagement can even begin.
@@ -12,7 +12,7 @@ In the world of cybersecurity, time is the most critical asset. Analysts, whethe
 
 This manual process is slow, prone to human error, and doesn't scale. What if an AI could do it for them? What if an AI could act not just as an assistant, but as an autonomous, cognitive collaborator?
 
-##✨ The Solution: A Multi-Agent System
+✨ The Solution: A Multi-Agent System
 AURA (Autonomous Unified Reconnaissance & Analysis) is a prototype for a next-generation "Cyber Agent Suite." It's a multi-agent system built on Google's Gemini, LangChain, and a custom toolbox of specialized Python functions.
 
 AURA features two distinct, specialized agents that work together in a single interface:
@@ -45,7 +45,7 @@ Cognitive Analysis Workflow:
 
 ✍️ Escalate (Tool 3): After gathering and correlating all evidence, the agent writes a formal "Incident Report" in Markdown and saves it to a file, escalating the threat for a human analyst to review.
 
-##🚀 How It Works: The Agentic Architecture
+🚀 How It Works: The Agentic Architecture
 This project is a true demonstration of Agentic AI principles. It's more than a script; it's a cognitive system.
 
 graph TD
@@ -57,42 +57,23 @@ graph TD
     C -->|Sends Observation| B;
     B -->|Synthesizes & Reports| A;
 
+
 🧠 The Brain (LLM): Google's Gemini 1.5 Flash acts as the core reasoning engine. It analyzes user requests, formulates multi-step plans, and decides which tool to use next.
 
 🔗 The Nervous System (Framework): LangChain provides the agentic framework (AgentExecutor) that connects the "Brain" to its "Hands." It manages the thought-action-observation loop.
 
 🛠️ The Hands (Custom Toolbox): These are pure Python functions that give the agent real-world capabilities. By abstracting complex actions (like port scanning or API calls) into simple tools, we enable the agent to perform powerful tasks without needing to know the implementation details.
 
-##🛠️ Technology Stack
-Category
+🛠️ Technology Stack
+| Category | Technology |
+| AI/ML | 🧠 LangChain, ♊ Google Gemini 1.5 Flash |
+| Frontend | 🎈 Streamlit |
+| Backend | 🐍 Python 3.11+ |
+| Tooling | 🌐 requests (for APIs), 🔌 socket (for Port Scanning) |
+| APIs | 🛡️ AbuseIPDB (IP Reputation), 🗺️ WhoisXML API (Subdomain Enumeration) |
+| Dev Tools | 💻 VS Code, 🐙 Git & GitHub, 📦 Pip & Venv |
 
-Technology
-
-AI/ML
-
-🧠 LangChain, ♊ Google Gemini 1.5 Flash
-
-Frontend
-
-🎈 Streamlit
-
-Backend
-
-🐍 Python 3.11+
-
-Tooling
-
-🌐 requests (for APIs), 🔌 socket (for Port Scanning)
-
-APIs
-
-🛡️ AbuseIPDB (IP Reputation), 🗺️ WhoisXML API (Subdomain Enumeration)
-
-Dev Tools
-
-💻 VS Code, 🐙 Git & GitHub, 📦 Pip & Venv
-
-##🏁 Getting Started
+🏁 Getting Started
 Prerequisites
 Python 3.9+
 
@@ -112,16 +93,17 @@ Clone the repository:
 git clone [https://github.com/YOUR_USERNAME/hackomatic-agent.git](https://github.com/YOUR_USERNAME/hackomatic-agent.git)
 cd hackomatic-agent
 
+
 Create and activate a virtual environment:
 
 python -m venv venv
 source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 
+
 Install dependencies:
 
 pip install -r requirements.txt
 
-(Note: You will need to create a requirements.txt file with pip freeze > requirements.txt)
 
 Set up your API keys:
 
@@ -133,9 +115,11 @@ GOOGLE_API_KEY="AIza..."
 ABUSEIPDB_API_KEY="..."
 WHOISXML_API_KEY="..."
 
+
 Running the Application
 Launch the Streamlit app:
 
 streamlit run app.py
 
-Your browser will automatically open to the Autonomous Cyber Ag
+
+Your browser will automatically open to the Autonomous Cyber Agent Suite!
