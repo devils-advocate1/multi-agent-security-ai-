@@ -90,7 +90,7 @@ WhoisXML API
 Installation & Setup
 Clone the repository:
 
-### 1. git clone [https://github.com/YOUR_USERNAME/hackomatic-agent.git](https://github.com/devils-advocate1/hackomatic-agent-.git) 
+### 1. git clone [https://github.com/devils-advocate1/hackomatic-agent-.git](https://github.com/devils-advocate1/hackomatic-agent-.git) 
          cd hackomatic-agent
 
 
