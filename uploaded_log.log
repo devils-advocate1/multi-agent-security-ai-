@@ -1,0 +1,11 @@
+Reconnaissance Report for tryhackme.com:
+
+**Subdomain Discovery:** The following subdomains were identified for tryhackme.com: blog.tryhackme.com, monitoring.tryhackme.com, maintenance.tryhackme.com, careers.tryhackme.com, www1-remote-us-west.tryhackme.com, remote.tryhackme.com, remote-eu.tryhackme.com, worker-test.tryhackme.com, newhelp.tryhackme.com, lp.tryhackme.com, conference-docs.tryhackme.com, reverse-proxy-us-east-1.tryhackme.com, guacaworker.tryhackme.com, cancel.tryhackme.com, docs.tryhackme.com, auth.tryhackme.com, cio56239.tryhackme.com, react.tryhackme.com, setup.auth.tryhackme.com, help.tryhackme.com
+
+
+**Reputation Scan:**  A reputation scan was performed on the resolvable subdomains.  No malicious activity was detected.  Several subdomains failed to resolve to an IP address and were skipped.
+
+
+**Port Scan:** An active port scan was conducted on the resolvable subdomains.  The following open ports were identified:  HTTP (port 80), HTTPS (port 443), and an alternative HTTP port (8080) were commonly found.  Several subdomains failed to resolve to an IP address and were skipped.  A detailed breakdown is provided in the Port Scan Report above.
+
+**Overall:** The reconnaissance indicates a generally clean profile for tryhackme.com and its subdomains.  However, further investigation may be warranted for the subdomains that failed to resolve.  The presence of common ports (80, 443, 8080) suggests standard web services are in use.
