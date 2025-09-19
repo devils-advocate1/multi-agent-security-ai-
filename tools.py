@@ -169,8 +169,6 @@ def write_report_to_file(report_content: str) -> str:
 
 # --- BLUE TEAM AGENT TOOLS ---
 
-# This is the helper we already built, but we are also making it a standalone tool
-# so the Blue Team agent can call it directly on any IP it finds.
 def check_single_target_reputation(target: str) -> str:
     """
     Use this tool to check the reputation of a SINGLE target (IP or domain).
