@@ -65,13 +65,13 @@ This project is a true demonstration of Agentic AI principles. It's more than a 
 🛠️ The Hands (Custom Toolbox): These are pure Python functions that give the agent real-world capabilities. By abstracting complex actions (like port scanning or API calls) into simple tools, we enable the agent to perform powerful tasks without needing to know the implementation details.
 
 ## 🛠️ Technology Stack
-| Category | Technology |
-| AI/ML | 🧠 LangChain, ♊ Google Gemini 1.5 Flash |
-| Frontend | 🎈 Streamlit |
-| Backend | 🐍 Python 3.11+ |
-| Tooling | 🌐 requests (for APIs), 🔌 socket (for Port Scanning) |
-| APIs | 🛡️ AbuseIPDB (IP Reputation), 🗺️ WhoisXML API (Subdomain Enumeration) |
-| Dev Tools | 💻 VS Code, 🐙 Git & GitHub, 📦 Pip & Venv |
+ | Category | Technology |
+ | AI/ML | 🧠 LangChain, ♊ Google Gemini 1.5 Flash |
+ | Frontend | 🎈 Streamlit |
+ | Backend | 🐍 Python 3.11+ |
+ | Tooling | 🌐 requests (for APIs), 🔌 socket (for Port Scanning) |
+ | APIs | 🛡️ AbuseIPDB (IP Reputation), 🗺️ WhoisXML API (Subdomain Enumeration) |
+ | Dev Tools | 💻 VS Code, 🐙 Git & GitHub, 📦 Pip & Venv |
 
 ## 🏁 Getting Started
 Prerequisites
@@ -90,7 +90,7 @@ WhoisXML API
 Installation & Setup
 Clone the repository:
 
-### 1. git clone [https://github.com/YOUR_USERNAME/hackomatic-agent.git](https://github.com/YOUR_USERNAME/hackomatic-agent.git) 
+### 1. git clone [https://github.com/YOUR_USERNAME/hackomatic-agent.git](https://github.com/devils-advocate1/hackomatic-agent-.git) 
          cd hackomatic-agent
 
 
